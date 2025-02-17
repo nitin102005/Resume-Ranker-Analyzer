@@ -1,0 +1,8 @@
+pdf2image==1.17.0
+pdfplumber==0.11.4
+pytesseract==0.3.13
+python-dotenv==1.0.0
+streamlit==1.32.0
+google-generativeai==0.1.0  # Adjust version if needed
+regex==2023.5.5  # For advanced regex if needed
+Pillow==9.3.0
