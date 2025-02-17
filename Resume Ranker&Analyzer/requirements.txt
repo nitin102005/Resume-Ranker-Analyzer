@@ -4,5 +4,5 @@ pytesseract
 python-dotenv
 streamlit
 google-generativeai  
-regex==2023.5.5  
+regex
 Pillow
