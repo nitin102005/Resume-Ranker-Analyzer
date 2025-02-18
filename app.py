@@ -299,6 +299,9 @@ st.markdown("""
         padding: 1rem;
         margin: 1rem 0;
     }
+    .st-emotion-cache-w3nhqi{
+        display: none;
+    }
     .analysis-card {
         background-color: #f5f5f5;
         border-radius: 5px;
@@ -580,6 +583,24 @@ st.markdown("""
                 font-size: 9px;
                 top: -9px;         
             }
+            .custom-box:hover,
+            .custom-title:hover {
+                background-color: #1e1e1e;
+                transform: none;
+                transition: none;
+                cursor: default;
+            }
+            .lottie-container:hover,
+        .lottie-container:hover .lottie,
+        .lottie-container:hover ~ .get-started,
+        .lottie-container:hover ~ .sub-text,
+        .sub-text:hover ~ .get-started,
+        .sub-text:hover ~ .lottie-container,
+        .sub-text:hover ~ .lottie{
+                transform: none;
+                transition: none;
+                cursor: default;
+        }
             .Description-Resumes{
                 font-size: 21px;
             }
