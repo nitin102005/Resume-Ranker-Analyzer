@@ -418,7 +418,7 @@ st.markdown("""
           right: -6px !important;
       }
       .container {
-        width: 125% !important;
+        width: 122% !important;
         height: auto !important;
         display: flex !important;
         flex-wrap: wrap !important;
