@@ -401,13 +401,13 @@ st.markdown("""
         top: -40px !important;
         min-height: auto !important;
         height: auto !important;
-        right: 14px !important;
+        right: -4px !important;
 
       }
       .title{
           font-size: 19px !important;
           top: -56px !important;
-          right: 6px !important;
+          right: -26px !important;
           white-space: nowrap !important;
           display: inline-block !important;
           font-weight: 540 !important;
@@ -415,7 +415,7 @@ st.markdown("""
       .sub-heading{
           font-size: 13px !important;
           top: -87px !important;
-          right: -2px !important;
+          right: -6px !important;
       }
       .container {
         width: 146% !important;
@@ -442,13 +442,13 @@ st.markdown("""
     }
     .text-heading {
         font-size: 11px !important;
-        bottom: -2px !important;
-        left: 9px !important;
+        bottom: -3px !important;
+        left: 12px !important;
     }
     .text {
         font-size: 11px !important;
-        bottom: 10px !important;
-        padding-left: 13px !important;
+        bottom: 12px !important;
+        padding-left: 11px !important;
     }
     
 
@@ -462,6 +462,8 @@ st.markdown("""
     @media (max-width: 480px) {
       .custom-title {
         font-size: 24px !important;
+        position: relative !important;
+        right: -10px !important;
       }
     }
     </style>
@@ -570,15 +572,15 @@ st.markdown("""
         @media (max-width: 768px){
             .lottie-container{ 
                 width: 90vw !important;
-                height: 30vh !important;
-                left: -26px !important;
+                height: 29vh !important;
+                left: 4px !important;
                 top: -94px !important;     
             }
             .lottie,.lottie iframe{
                 
-                left: 282px !important;
-                width: 199px !important;
-                height: 168px !important;      
+                left: 275px !important;
+                width: 181px !important;
+                height: 170px !important;      
                 
             }
             .get-started{
