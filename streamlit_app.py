@@ -216,35 +216,35 @@ st.markdown(
     f"""
     <style>
         .custom-image {{
-            display: block;
-            margin: auto;
-            width: 21%;
+            display: block !important;
+            margin: auto !important;
+            width: 21% !important;
             position: relative;
-            top: -10vh;
-            left: -65vh;
+            top: -6vh !important;
+            left: -65vh !important;
         }}
 
         @media (max-width: 1024px) {{
             .custom-image {{
-                width: 30%;
-                left: -30vh;
-                top: -5vh;
+                width: 30% !important;
+                left: -30vh !important;
+                top: -5vh !important;
             }}
         }}
 
         @media (max-width: 768px) {{
             .custom-image {{
-                width: 40%;
-                left: -2px;
-                top: -5vh;
+                width: 40% !important;
+                left: -2px !important;
+                top: -5vh !important;
             }}
         }}
 
         @media (max-width: 480px) {{
             .custom-image {{
-                width: 50%;
-                left: 0;
-                top: -3vh;
+                width: 50% !important;
+                left: 0 !important;
+                top: -3vh !important;
             }}
         }}
     </style>
@@ -290,7 +290,7 @@ st.markdown("""
         font-weight: 200;
         font-family: 'Archivo', sans-serif;
         color: #424242;
-        font-size: 10px;
+        font-size: 10px !important;
         position: relative;
         bottom: 26px;
     }   
@@ -362,8 +362,8 @@ st.markdown("""
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3), 0 10px 30px rgba(0, 0, 0, 0.15);
         text-align: center;
         position: relative;
-        top: -100px;
-        min-height: 38vh;
+        top: -88px;
+        min-height: 40vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -395,65 +395,65 @@ st.markdown("""
 
     @media (max-width: 768px) {
       .custom-box {
-        width: 83vw;
-        margin: 20px auto;
-        padding: 9px;
-        top: -40px;
-        min-height: auto;
-        height: auto;
-        right: 14px;
+        width: 83vw !important;
+        margin: 20px auto !important;
+        padding: 9px !important;
+        top: -40px !important;
+        min-height: auto !important;
+        height: auto !important;
+        right: 14px !important;
 
       }
       .title{
-          font-size: 19px;
-          top: -56px;
-          right: 6px;
-          white-space: nowrap;
-          display: inline-block;
-          font-weight: 540;
+          font-size: 19px !important;
+          top: -56px !important;
+          right: 6px !important;
+          white-space: nowrap !important;
+          display: inline-block !important;
+          font-weight: 540 !important;
       }
       .sub-heading{
-          font-size: 13px;
-          top: -87px;
-          right: -2px;
+          font-size: 13px !important;
+          top: -87px !important;
+          right: -2px !important;
       }
       .container {
-        width: 146%;
-        height: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        top: -95px;
-        left: -69px;
-        padding: 10px;
+        width: 146% !important;
+        height: auto !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        top: -95px !important;
+        left: -69px !important;
+        padding: 10px !important;
     }
     .box {
-        width: 31%;
-        height: 134px;
-        padding: 0px;
-        margin-bottom: 10px;
+        width: 31% !important;
+        height: 134px !important;
+        padding: 0px !important;
+        margin-bottom: 10px !important;
     }
     .box:nth-child(4), .box:nth-child(5) {
-        width: 37%; 
-        height: 120px;
+        width: 37% !important; 
+        height: 120px !important;
     }
     .box:nth-child(4){
-        border-left: none;
+        border-left: none !important;
     }
     .text-heading {
-        font-size: 11px;
-        bottom: -2px;
-        left: 9px;
+        font-size: 11px !important;
+        bottom: -2px !important;
+        left: 9px !important;
     }
     .text {
-        font-size: 11px;
-        bottom: 10px;
-        padding-left: 13px;
+        font-size: 11px !important;
+        bottom: 10px !important;
+        padding-left: 13px !important;
     }
     
 
       .custom-title {
-        font-size: 36px;
+        font-size: 36px !important;
       }
       
 
@@ -461,7 +461,7 @@ st.markdown("""
 
     @media (max-width: 480px) {
       .custom-title {
-        font-size: 24px;
+        font-size: 24px !important;
       }
     }
     </style>
@@ -520,10 +520,17 @@ st.markdown("""
             width: 70vw;
             margin-bottom: -112px;
         }
+        body, .stApp {
+            background-color: #FFFFFF;
+            color: #31333F;
+        }
+        .stSidebar {
+            background-color: #F0F2F6 !important;
+        }
 
         .lottie {
             bottom: 10px !important;
-            right: -39vw !important;
+            right: -37vw !important;
             position: relative;
             border: none !important;
         }
@@ -562,34 +569,34 @@ st.markdown("""
         }
         @media (max-width: 768px){
             .lottie-container{ 
-                width: 90vw;
-                height: 30vh;
-                left: -26px;
-                top: -94px;     
+                width: 90vw !important;
+                height: 30vh !important;
+                left: -26px !important;
+                top: -94px !important;     
             }
             .lottie,.lottie iframe{
                 
-                left: 282px;
-                width: 199px;
-                height: 168px;      
+                left: 282px !important;
+                width: 199px !important;
+                height: 168px !important;      
                 
             }
             .get-started{
-                font-size: 16px;
-                left: -48px;
-                top: -65px;         
+                font-size: 16px !important;
+                left: -48px !important;
+                top: -65px !important;         
             }
             .sub-text{
-                left: -168px;
-                font-size: 9px;
-                top: -9px;         
+                left: -168px !important;
+                font-size: 9px !important;
+                top: -9px !important;         
             }
             .custom-box:hover,
             .custom-title:hover {
-                background-color: #1e1e1e;
-                transform: none;
-                transition: none;
-                cursor: default;
+                background-color: #1e1e1e !important;
+                transform: none !important;
+                transition: none !important;
+                cursor: default !important;
             }
             .lottie-container:hover,
         .lottie-container:hover .lottie,
@@ -598,12 +605,12 @@ st.markdown("""
         .sub-text:hover ~ .get-started,
         .sub-text:hover ~ .lottie-container,
         .sub-text:hover ~ .lottie{
-                transform: none;
-                transition: none;
-                cursor: default;
+                transform: none !important;
+                transition: none !important;
+                cursor: default !important;
         }
             .Description-Resumes{
-                font-size: 21px;
+                font-size: 21px !important;
             }
             
         
