@@ -219,7 +219,6 @@ st.markdown(
             display: block;
             margin: auto;
             width: 21%;
-            max-width: 150px;
             position: relative;
             top: -10vh;
             left: -65vh;
@@ -263,18 +262,18 @@ st.markdown("""
     }
     .title {
         text-align: center;
-        margin-bottom: 2rem;
-        color:#1e1e1e;
-        font-family: 'Switzer', sans-serif;
-        font-weight: 400; 
-        font-size: 45px;
+        margin-bottom: 2rem !important;
+        color:#1e1e1e !important;
+        font-family: 'Switzer', sans-serif !important;
+        font-weight: 400 !important; 
+        font-size: 45px !important;
         position: relative;
         top: -114px;
     }
     @import url('https://fonts.googleapis.com/css2?family=Switzer:wght@300;400;500;600&family=Inter:wght@300;400;500&family=Archivo:wght@200;300;400;600&display=swap');
     .sub-heading{
         font-family: 'Inter', 'Inter Placeholder', sans-serif;
-        font-size: 20px;
+        font-size: 20px !important;
         font-weight: 300;
         text-align: center;
         position: relative;
@@ -374,11 +373,11 @@ st.markdown("""
 
 
     .custom-title {
-        font-family: ui-serif;
-        font-size: 54px;
-        color: #ffffff;
-        margin: 0;
-        padding: 10px;
+        font-family: ui-serif !important;
+        font-size: 54px !important;
+        color: #ffffff !important;
+        margin: 0 !important;
+        padding: 10px !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -507,7 +506,7 @@ st.markdown("""
 st.markdown("""
     <style>
         .lottie-container {
-            margin-bottom: -112px;
+            margin-bottom: -112px !important;
             position: relative;
             bottom: 149px;
             right: -115px;
@@ -518,16 +517,15 @@ st.markdown("""
             background-color: #f4f4f4;
             border-radius: 15px;
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 15px;
             width: 70vw;
             margin-bottom: -112px;
         }
 
         .lottie {
-            bottom: 10px;
-            right: -39vw;
+            bottom: 10px !important;
+            right: -39vw !important;
             position: relative;
-            border: none;
+            border: none !important;
         }
         .get-started{
             position: relative;
@@ -541,9 +539,9 @@ st.markdown("""
             
         }
         .Description-Resumes{
-            font-size: 40px;
-            font-weight: 400;
-            font-family: ui-serif;   
+            font-size: 40px !important;
+            font-weight: 400 !important;
+            font-family: ui-serif !important;   
         }
         .sub-text{
             position: relative;
