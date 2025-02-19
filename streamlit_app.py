@@ -527,6 +527,7 @@ st.markdown("""
             bottom: 10px;
             right: -39vw;
             position: relative;
+            border: none;
         }
         .get-started{
             position: relative;
