@@ -64,7 +64,8 @@ def analyze_resume(resume_text, job_description=None):
     base_prompt = f"""
     As an experienced HR professional with technical expertise, analyze this resume using the following structure:
 
-    1. Key Strengths:
+    1. Candidate name
+      Key Strengths:
     - [List key strengths as bullet points]
 
     2. Areas for Improvement:
@@ -270,6 +271,7 @@ st.markdown("""
         position: relative;
         top: -114px;
     }
+    @import url('https://fonts.googleapis.com/css2?family=Switzer:wght@300;400;500;600&family=Inter:wght@300;400;500&family=Archivo:wght@200;300;400;600&display=swap');
     .sub-heading{
         font-family: 'Inter', 'Inter Placeholder', sans-serif;
         font-size: 20px;
