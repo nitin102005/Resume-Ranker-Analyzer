@@ -418,15 +418,16 @@ st.markdown("""
           right: -6px !important;
       }
       .container {
-        width: 146% !important;
+        width: 125% !important;
         height: auto !important;
         display: flex !important;
         flex-wrap: wrap !important;
         justify-content: center !important;
         top: -95px !important;
-        left: -69px !important;
+        left: -35px !important;
         padding: 10px !important;
     }
+    
     .box {
         width: 31% !important;
         height: 134px !important;
