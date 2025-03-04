@@ -85,5 +85,5 @@ streamlit run streamlit_app.py
  - Slow processing? Large PDFs may take time. Try reducing file size.
 
 ## Video
-``` Drive Link : https://drive.google.com/file/d/1OB7u1sJWOZkLneycuqNgM0uH5ILMLwLL/view?usp=sharing
+``` Drive Link : https://drive.google.com/file/d/1OB7u1sJWOZkLneycuqNgM0uH5ILMLwLL/view?usp=sharing```
 
