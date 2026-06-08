@@ -59,7 +59,7 @@ def analyze_resume(resume_text, job_description=None):
     if not resume_text:
         return {"error": "Resume text is required for analysis."}
     
-    model = genai.GenerativeModel("gemini-1.5-flash")
+    model = genai.GenerativeModel("gemini-2.5-flash")
     
     base_prompt = f"""
     As an experienced HR professional with technical expertise, analyze this resume using the following structure:
